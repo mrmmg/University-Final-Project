@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('https://cdn.jsdelivr.net/npm/vazir-font@21.1.0/dist/Farsi-Digits/Vazir-FD.eot');
+    src: url('https://cdn.jsdelivr.net/npm/vazir-font@21.1.0/dist/Farsi-Digits/Vazir-FD.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/npm/vazir-font@21.1.0/dist/Farsi-Digits/Vazir-FD.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/npm/vazir-font@21.1.0/dist/Farsi-Digits/Vazir-FD.woff') format('woff');
+    font-weight: normal;
+}
+
+body {
+    font-family: 'vazir';
+    Margin: 0!important;
+    padding: 15px;
+    background-color: #fff
+}
+
+p,
+a,
+h1,
+h2,
+h3{
+    font-family: 'vazir';
+    font-size: 18px!important;
+}
+
+.wrapper {
+    width: 100%;
+    table-layout: fixed
+}
+
+.wrapper-inner {
+    width: 100%;
+    background-color: #eee;
+    max-width: 670px;
+    Margin: 0 auto
+}
+
+table {
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #000;
+}
+
+.outer-table {
+    width: 100%;
+    max-width: 670px;
+    margin: 0 auto;
+    background-color: #fff
+}
+
+td {
+    padding: 0
+}
+
+.header {
+    background-color: #c2c1c1;
+    border-bottom: 3px solid #81b9c3
+}
+
+p {
+    Margin: 0
+}
+
+.header p {
+    text-align: center;
+    padding: 1%;
+    text-transform: uppercase
+}
+
+a {
+    color: #f1f1f1;
+    text-decoration: none
+}
+
+.main-table-first {
+    width: 100%;
+    max-width: 610px;
+    Margin: 0 auto;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-top: 25px
+}
+
+.two-column {
+    text-align: center;
+    padding: 5px 0 10px 0
+}
+
+.two-column .section {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top
+}
+
+.center {
+    display: table;
+    Margin: 0 auto
+}
+
+.main-table {
+    width: 100%;
+    max-width: 610px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 6px
+}
+
+.one-column .inner-td {
+    line-height: 20px;
+    text-align: justify
+}
+
+.inner-td {
+    padding: 10px
+}
+
+.h2 {
+    text-align: center;
+    font-weight: 600;
+    line-height: 45px;
+    Margin: 12px;
+    color: #4a4a4a
+}
+
+p.center {
+    text-align: center;
+    max-width: 580px;
+    line-height: 24px
+}
+
+.button-holder-center {
+    text-align: center;
+    Margin: 5% 2% 3% 0
+}
+
+.button-holder {
+    float: right;
+    Margin: 5% 0 3% 0
+}
+
+.btn {
+    font-weight: 600;
+    background: #1e8094;
+    color: #fff;
+    text-decoration: none;
+    padding: 9px 16px;
+    border-radius: 28px
+}
+
+.outer-table-2 {
+    width: 100%;
+    max-width: 670px;
+    margin: 22px auto;
+    background-color: #c2c1c1;
+    border-bottom: 3px solid #81b9c3;
+    border-top: 3px solid #81b9c3
+}
+
+.outer-table-2 p {
+    margin-top: 6px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 23px
+}
+
+.outer-table-3 {
+    width: 100%;
+    max-width: 670px;
+    margin: 22px auto;
+    background-color: #c2c1c1;
+    border-top: 3px solid #81b9c3
+}
+
+.h3 {
+    text-align: center;
+    font-weight: 600;
+    Margin-bottom: 8px;
+    color: #4a4a4a
+}
+
+.h1 {
+    text-align: center!important;
+    font-weight: 600;
+    line-height: 45px;
+    Margin: 12px 0 20px 0;
+    color: #4a4a4a
+}
+.h4 {
+    text-align: center;
+    font-weight: 300;
+    Margin-bottom: 8px;
+    color: #727f80;
+}
+
+.footer {
+    width: 100%;
+    background-color: #c2c1c1;
+    Margin: 0 auto;
+    color: #fff
+}
+
+p.footer {
+    text-align: center;
+    color: #fff!important;
+    line-height: 30px;
+    padding-bottom: 4%;
+    text-transform: uppercase
+}
+
+@media screen and (max-width:400px) {
+    .two-column .column {
+        max-width: 100%!important
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:400px) {
+    .two-column .column {
+        max-width: 50%!important
+    }
+}
+
+@media screen and (max-width:768px) {
+    .two-column .section {
+        width: 100%!important;
+        max-width: 100%!important;
+        display: inline-block;
+        vertical-align: top
+    }
+}
